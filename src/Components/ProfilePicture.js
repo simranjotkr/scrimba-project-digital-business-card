@@ -3,6 +3,6 @@ import picture from '../images/profile-picture.png'
 
 export default function ProfilePicture() {
     return (
-        <img src={picture} className='app-profile-picture' alt='profile-picture' />
+        <img src={picture} className='app-profile-picture' alt='logo' />
     )
 }
