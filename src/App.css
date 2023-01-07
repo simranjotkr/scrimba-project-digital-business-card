@@ -19,7 +19,6 @@ body {
     background-color: #1A1B21;
     border-radius: 10px;
     max-width: 317px;
-    max-height: 780px;
 }
 
 .app-profile-picture {
@@ -108,4 +107,11 @@ body {
     border-radius: 0 0 10px 10px;
     height: 50px;
     background-color: #161619
+}
+
+@media screen and (max-width: 1024px) {
+    .app {
+    margin-top: 75px;
+    margin-bottom: 10px;
+    }
 }
